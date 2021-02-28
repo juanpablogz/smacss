@@ -1,0 +1,47 @@
+.button {
+	border: none;
+	min-width: 180px;
+	height: 50px;
+	padding: 0 30px;
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #403CC2;
+	transition: .3s ease all;
+}
+.card {
+	background: white;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 50px;
+}
+.card__thumbnail {
+	width: 650px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+}
+.card__img {
+	width: 100%;
+}
+.card__title {
+	font-family: 'Raleway';
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.card__link {
+	line-height: 28px;
+	color: #6D6D6D;
+	margin-bottom: 20px;
+}
